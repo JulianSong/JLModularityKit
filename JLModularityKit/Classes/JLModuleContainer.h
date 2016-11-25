@@ -12,6 +12,5 @@
 @property (nonatomic, strong)id viewModel;
 - (NSArray *)setupModuleNames;
 - (void)sendMsg:(id)msg to:(Class) receiver callBack:(void (^)(id msg))callBack;
-//- (id)setupViewModel;
 - (void)reloadModules;
 @end

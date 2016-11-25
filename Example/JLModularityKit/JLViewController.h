@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
-
+@import JLModularityKit;
 @interface JLViewController : UIViewController
 
 @end

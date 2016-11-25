@@ -59,6 +59,7 @@
 		AAE422C68F2CFC6C5610F7D8BED87586 /* JLModularityKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLModularityKit.xcconfig; sourceTree = "<group>"; };
 		B21A28FF15779ED8CA0004500710998F /* Pods_JLModularityKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLModularityKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EDEFA88776E26588C89EE163B0E5FD /* Pods-JLModularityKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLModularityKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B9ECA1751DE87F6B008F141D /* JLModularityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLModularityKit.h; sourceTree = "<group>"; };
 		C29137A5BF466F425DC1BD72B4D2E54C /* Pods-JLModularityKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLModularityKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		C9EF0C381DE84294007D1F4B /* JLBaseModule_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBaseModule_Private.h; sourceTree = "<group>"; };
 		C9EF0C391DE84294007D1F4B /* JLBaseModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBaseModule.h; sourceTree = "<group>"; };
@@ -194,6 +195,7 @@
 		A19A743965425F502D713050C92AA704 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B9ECA1751DE87F6B008F141D /* JLModularityKit.h */,
 				C9EF0C381DE84294007D1F4B /* JLBaseModule_Private.h */,
 				C9EF0C391DE84294007D1F4B /* JLBaseModule.h */,
 				C9EF0C3A1DE84294007D1F4B /* JLBaseModule.m */,

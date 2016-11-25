@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "JLModuleContainer.h"
-@interface JLModuleTableViewController :UITableViewController <IAModuleContainer>
+@interface JLModuleTableViewController :UITableViewController <JLModuleContainer>
 - (instancetype)initWithViewModel:(id)viewModel;
 @end

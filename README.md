@@ -22,7 +22,7 @@ pod "JLModularityKit"
 
 ## Author
 
-SongJunliang, songjunliang@huiti.com
+geeksong@gmail.com
 
 ## License
 
