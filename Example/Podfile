@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLModularityKit_Example' do
+  pod 'JLModularityKit', :path => '../'
+
+  target 'JLModularityKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
