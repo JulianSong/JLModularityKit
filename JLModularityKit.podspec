@@ -1,42 +1,16 @@
-#
-# Be sure to run `pod lib lint JLModularityKit.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'JLModularityKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JLModularityKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'IOS 7 JLModularityKit.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+IOS 7 JLModularityKit modularity and configable table.
                        DESC
-
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/JLModularityKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/JulianSong/JLModularityKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'SongJunliang' => 'songjunliang@huiti.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/JLModularityKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'junliang.song' => 'junliang.song@dianping.com' }
+  s.source           = { :git => 'https://github.com/JulianSong/JLModularityKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'JLModularityKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JLModularityKit' => ['JLModularityKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'JLModularityKit/Classes/*'
+  s.public_header_files = 'JLModularityKit/Classes/*.h'
+  s.frameworks = 'UIKit'
 end

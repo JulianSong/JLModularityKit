@@ -1,0 +1,6 @@
+framework module JLModularityKit {
+  umbrella header "JLModularityKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
