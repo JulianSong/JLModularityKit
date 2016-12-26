@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'IOS 7 JLModularityKit.'
   s.description      = <<-DESC
-IOS 7 JLModularityKit modularity and configable table.
+IOS 7 JLModularityKit modularity and configable tableview.
                        DESC
   s.homepage         = 'https://github.com/JulianSong/JLModularityKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

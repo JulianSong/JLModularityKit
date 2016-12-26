@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "JLModuleContainer.h"
 @interface JLBaseModule : NSObject
-@property(nonatomic,weak,readonly)UITableViewController <JLModuleContainer> *moduleContainer;
+@property(nonatomic,weak,readonly)UIViewController <JLModuleContainer> *moduleContainer;
 @property(nonatomic,weak) id commonViewModel;
 @property(nonatomic,strong) UITableViewCell *cell;
 

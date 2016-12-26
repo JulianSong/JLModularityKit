@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @protocol JLModuleContainer <NSObject>
-@property (nonatomic, strong)id viewModel;
+@property (nonatomic, strong) id viewModel;
+@property (nonatomic, strong) UITableView *tableView;
 - (NSArray *)setupModuleNames;
 - (void)sendMsg:(id)msg to:(Class) receiver callBack:(void (^)(id msg))callBack;
 - (void)reloadModules;
