@@ -1,16 +1,16 @@
 # JLModularityKit
-模块化可配置TableView
+模块化可配置TableView,可实现表单页面负责商户页面等。
 
 [![CI Status](http://img.shields.io/travis/SongJunliang/JLModularityKit.svg?style=flat)](https://travis-ci.org/SongJunliang/JLModularityKit)
 [![Version](https://img.shields.io/cocoapods/v/JLModularityKit.svg?style=flat)](http://cocoapods.org/pods/JLModularityKit)
 [![License](https://img.shields.io/cocoapods/l/JLModularityKit.svg?style=flat)](http://cocoapods.org/pods/JLModularityKit)
 [![Platform](https://img.shields.io/cocoapods/p/JLModularityKit.svg?style=flat)](http://cocoapods.org/pods/JLModularityKit)
+
 ## 截图
 <img src="https://github.com/JulianSong/JLModularityKit/blob/master/Screenshots/1.png" width="250" height="445" />
 <img src="https://github.com/JulianSong/JLModularityKit/blob/master/Screenshots/2.png" width="250" height="445" />
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## 使用
 
 ### 实现一个模块
 ```ruby
@@ -48,9 +48,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ### 详细使用请看以下三个类
 
-JLBaseModule
-JLModuleViewController
-JLModuleTableViewController
+* JLBaseModule
+* JLModuleViewController
+* JLModuleTableViewController
 
 ## Installation
 
