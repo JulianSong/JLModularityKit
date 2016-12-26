@@ -1,22 +1,24 @@
 {
   "name": "JLModularityKit",
   "version": "0.1.0",
-  "summary": "A short description of JLModularityKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JLModularityKit",
+  "summary": "IOS 7 JLModularityKit.",
+  "description": "IOS 7 JLModularityKit modularity and configable table.",
+  "homepage": "https://github.com/JulianSong/JLModularityKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "SongJunliang": "songjunliang@huiti.com"
+    "junliang.song": "junliang.song@dianping.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JLModularityKit.git",
+    "git": "https://github.com/JulianSong/JLModularityKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JLModularityKit/Classes/**/*"
+  "source_files": "JLModularityKit/Classes/*",
+  "public_header_files": "JLModularityKit/Classes/*.h",
+  "frameworks": "UIKit"
 }

@@ -26,7 +26,7 @@
 
 - (void)onStart
 {
-    self.cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:NSStringFromClass([self class])];
+    self.cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:NSStringFromClass([self class])];
 }
 
 - (void)didSetViewModel

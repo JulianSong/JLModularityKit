@@ -1,30 +1,31 @@
 //
-//  JLAppDelegate.m
-//  JLModularityKit
+//  JLModuleViewController.m
+//  Pods
 //
-//  Created by SongJunliang on 11/25/2016.
-//  Copyright (c) 2016 SongJunliang. All rights reserved.
+//  Created by Julian Song on 16/12/26.
+//
 //
 
-#import "JLModuleTableViewController.h"
+#import "JLModuleViewController.h"
 #import "JLBaseModule.h"
 #import "JLBaseModule_Private.h"
-@interface JLModuleTableViewController ()
+@interface JLModuleViewController ()
 @property (nonatomic,strong) NSMutableArray *modules;
 @property (nonatomic,strong) NSMutableArray *showingModules;
 @property (nonatomic,strong) NSMutableDictionary *showingSectionHeaderModules;
 @property (nonatomic,strong) NSMutableDictionary *showingSectionFooterModules;
 @property (nonatomic,strong) NSArray *moduleNames;
-
 @end
 
-@implementation JLModuleTableViewController
+@implementation JLModuleViewController
 @synthesize viewModel = _viewModel;
-
 
 - (instancetype)initWithStyle:(UITableViewStyle)style
 {
-    if (self = [super initWithStyle:style]) {
+    if (self = [super init]) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:style];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
         _moduleNames = [self setupModuleNames];
         _modules     = [[NSMutableArray alloc] init];
         _showingSectionHeaderModules     = [[NSMutableDictionary alloc] init];
@@ -35,7 +36,10 @@
 
 - (instancetype)initWithStyle:(UITableViewStyle)style withViewModel:(id)viewModel
 {
-    if (self = [super initWithStyle:style]) {
+    if (self = [super init]) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:style];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
         _viewModel = viewModel;
         _moduleNames = [self setupModuleNames];
         _modules     = [[NSMutableArray alloc] init];
@@ -57,7 +61,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self.view addSubview:self.tableView];
+    self.tableView.frame = self.view.frame;
     for (NSArray *nameSection in self.moduleNames) {
         NSMutableArray *muduleSection = [[NSMutableArray alloc] init];
         for (Class class in nameSection) {
@@ -208,6 +213,5 @@
     //    IABaseModule *module = self.showingModules[indexPath.section][indexPath.row];
     //    [module didEndDisplayingCell:cell forIndexPath:indexPath];
 }
-
 
 @end

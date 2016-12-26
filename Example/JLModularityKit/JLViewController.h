@@ -8,6 +8,6 @@
 
 @import UIKit;
 @import JLModularityKit;
-@interface JLViewController : UIViewController
+@interface JLViewController : UITableViewController
 
 @end

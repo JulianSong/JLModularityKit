@@ -23,6 +23,17 @@
 		7401A40BE99CB9D986F14A61 /* Pods_JLModularityKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF76AD10ECABE9F0D5E7003 /* Pods_JLModularityKit_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A194CF634E6F95B3A41EF1C2 /* Pods_JLModularityKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEB5207E90E230154623EFA /* Pods_JLModularityKit_Example.framework */; };
+		C9E792F41E10B9F900895A8D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E792F31E10B9F900895A8D /* Launch Screen.storyboard */; };
+		C9E792FB1E10BB7800895A8D /* JLFromNameModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E792FA1E10BB7800895A8D /* JLFromNameModule.m */; };
+		C9E792FE1E10BB8900895A8D /* JLFromCountModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E792FD1E10BB8900895A8D /* JLFromCountModule.m */; };
+		C9E793011E10BBB300895A8D /* JLFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E793001E10BBB300895A8D /* JLFromViewController.m */; };
+		C9E793041E10C1C900895A8D /* JLFromCustomNameModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E793031E10C1C900895A8D /* JLFromCustomNameModule.m */; };
+		C9E793071E10C1DF00895A8D /* JLFromCustomPhoneModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E793061E10C1DF00895A8D /* JLFromCustomPhoneModule.m */; };
+		C9E7930B1E10C55100895A8D /* JLListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E7930A1E10C55100895A8D /* JLListViewController.m */; };
+		C9E7930E1E10C57500895A8D /* JLListTitleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E7930D1E10C57500895A8D /* JLListTitleModule.m */; };
+		C9E793111E10C59500895A8D /* JLListItemModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E793101E10C59500895A8D /* JLListItemModule.m */; };
+		C9E793141E10C84900895A8D /* JLListBottomModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E793131E10C84900895A8D /* JLListBottomModule.m */; };
+		C9E7931F1E10EFDD00895A8D /* JLFromTimeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E7931E1E10EFDD00895A8D /* JLFromTimeModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +74,27 @@
 		BA898BD3C3B7887B4EF29058 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C66EC51A4E0C394387F1322F /* JLModularityKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JLModularityKit.podspec; path = ../JLModularityKit.podspec; sourceTree = "<group>"; };
 		C99659370893DF001A4CA44D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C9E792F31E10B9F900895A8D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C9E792F91E10BB7800895A8D /* JLFromNameModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLFromNameModule.h; sourceTree = "<group>"; };
+		C9E792FA1E10BB7800895A8D /* JLFromNameModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLFromNameModule.m; sourceTree = "<group>"; };
+		C9E792FC1E10BB8900895A8D /* JLFromCountModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLFromCountModule.h; sourceTree = "<group>"; };
+		C9E792FD1E10BB8900895A8D /* JLFromCountModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLFromCountModule.m; sourceTree = "<group>"; };
+		C9E792FF1E10BBB300895A8D /* JLFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLFromViewController.h; sourceTree = "<group>"; };
+		C9E793001E10BBB300895A8D /* JLFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLFromViewController.m; sourceTree = "<group>"; };
+		C9E793021E10C1C900895A8D /* JLFromCustomNameModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLFromCustomNameModule.h; sourceTree = "<group>"; };
+		C9E793031E10C1C900895A8D /* JLFromCustomNameModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLFromCustomNameModule.m; sourceTree = "<group>"; };
+		C9E793051E10C1DF00895A8D /* JLFromCustomPhoneModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLFromCustomPhoneModule.h; sourceTree = "<group>"; };
+		C9E793061E10C1DF00895A8D /* JLFromCustomPhoneModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLFromCustomPhoneModule.m; sourceTree = "<group>"; };
+		C9E793091E10C55100895A8D /* JLListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLListViewController.h; sourceTree = "<group>"; };
+		C9E7930A1E10C55100895A8D /* JLListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLListViewController.m; sourceTree = "<group>"; };
+		C9E7930C1E10C57500895A8D /* JLListTitleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLListTitleModule.h; sourceTree = "<group>"; };
+		C9E7930D1E10C57500895A8D /* JLListTitleModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLListTitleModule.m; sourceTree = "<group>"; };
+		C9E7930F1E10C59500895A8D /* JLListItemModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLListItemModule.h; sourceTree = "<group>"; };
+		C9E793101E10C59500895A8D /* JLListItemModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLListItemModule.m; sourceTree = "<group>"; };
+		C9E793121E10C84900895A8D /* JLListBottomModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLListBottomModule.h; sourceTree = "<group>"; };
+		C9E793131E10C84900895A8D /* JLListBottomModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLListBottomModule.m; sourceTree = "<group>"; };
+		C9E7931D1E10EFDD00895A8D /* JLFromTimeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLFromTimeModule.h; sourceTree = "<group>"; };
+		C9E7931E1E10EFDD00895A8D /* JLFromTimeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLFromTimeModule.m; sourceTree = "<group>"; };
 		DDDF168FA1BEBFEB2AB29ACE /* Pods-JLModularityKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLModularityKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLModularityKit_Example/Pods-JLModularityKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F1EC40382A5B99DDD2339190 /* Pods-JLModularityKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLModularityKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLModularityKit_Tests/Pods-JLModularityKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,9 +173,12 @@
 		6003F593195388D20070C39A /* Example for JLModularityKit */ = {
 			isa = PBXGroup;
 			children = (
+				C9E793081E10C53E00895A8D /* List */,
+				C9E792F81E10BB5900895A8D /* From */,
 				6003F59C195388D20070C39A /* JLAppDelegate.h */,
 				6003F59D195388D20070C39A /* JLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				C9E792F31E10B9F900895A8D /* Launch Screen.storyboard */,
 				6003F5A5195388D20070C39A /* JLViewController.h */,
 				6003F5A6195388D20070C39A /* JLViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -191,6 +226,40 @@
 				BA898BD3C3B7887B4EF29058 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		C9E792F81E10BB5900895A8D /* From */ = {
+			isa = PBXGroup;
+			children = (
+				C9E792F91E10BB7800895A8D /* JLFromNameModule.h */,
+				C9E792FA1E10BB7800895A8D /* JLFromNameModule.m */,
+				C9E792FC1E10BB8900895A8D /* JLFromCountModule.h */,
+				C9E792FD1E10BB8900895A8D /* JLFromCountModule.m */,
+				C9E7931D1E10EFDD00895A8D /* JLFromTimeModule.h */,
+				C9E7931E1E10EFDD00895A8D /* JLFromTimeModule.m */,
+				C9E793021E10C1C900895A8D /* JLFromCustomNameModule.h */,
+				C9E793031E10C1C900895A8D /* JLFromCustomNameModule.m */,
+				C9E793051E10C1DF00895A8D /* JLFromCustomPhoneModule.h */,
+				C9E793061E10C1DF00895A8D /* JLFromCustomPhoneModule.m */,
+				C9E792FF1E10BBB300895A8D /* JLFromViewController.h */,
+				C9E793001E10BBB300895A8D /* JLFromViewController.m */,
+			);
+			name = From;
+			sourceTree = "<group>";
+		};
+		C9E793081E10C53E00895A8D /* List */ = {
+			isa = PBXGroup;
+			children = (
+				C9E793091E10C55100895A8D /* JLListViewController.h */,
+				C9E7930A1E10C55100895A8D /* JLListViewController.m */,
+				C9E7930C1E10C57500895A8D /* JLListTitleModule.h */,
+				C9E7930D1E10C57500895A8D /* JLListTitleModule.m */,
+				C9E7930F1E10C59500895A8D /* JLListItemModule.h */,
+				C9E793101E10C59500895A8D /* JLListItemModule.m */,
+				C9E793121E10C84900895A8D /* JLListBottomModule.h */,
+				C9E793131E10C84900895A8D /* JLListBottomModule.m */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +347,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				C9E792F41E10B9F900895A8D /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +375,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		494ECF477918B4F12E34A8C2 /* [CP] Check Pods Manifest.lock */ = {
@@ -320,7 +390,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7EC9399DA86B2397A9F324D5 /* [CP] Copy Pods Resources */ = {
@@ -390,8 +460,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E793141E10C84900895A8D /* JLListBottomModule.m in Sources */,
+				C9E7930E1E10C57500895A8D /* JLListTitleModule.m in Sources */,
+				C9E793111E10C59500895A8D /* JLListItemModule.m in Sources */,
+				C9E792FB1E10BB7800895A8D /* JLFromNameModule.m in Sources */,
+				C9E793071E10C1DF00895A8D /* JLFromCustomPhoneModule.m in Sources */,
 				6003F59E195388D20070C39A /* JLAppDelegate.m in Sources */,
+				C9E793011E10BBB300895A8D /* JLFromViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* JLViewController.m in Sources */,
+				C9E7930B1E10C55100895A8D /* JLListViewController.m in Sources */,
+				C9E792FE1E10BB8900895A8D /* JLFromCountModule.m in Sources */,
+				C9E7931F1E10EFDD00895A8D /* JLFromTimeModule.m in Sources */,
+				C9E793041E10C1C900895A8D /* JLFromCustomNameModule.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
