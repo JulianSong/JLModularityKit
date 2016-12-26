@@ -9,5 +9,5 @@
 #import "JLBaseModule.h"
 
 @interface JLBaseModule ()
-@property(nonatomic,weak)UITableViewController <JLModuleContainer> *moduleContainer;
+@property(nonatomic,weak)UIViewController <JLModuleContainer> *moduleContainer;
 @end
